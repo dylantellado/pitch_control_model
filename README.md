@@ -4,13 +4,11 @@
 
 This repository contains the implementation of a pitch control model designed for soccer analysis. The model uses tracking data to calculate player control over specific areas of the pitch at various timestamps, providing insights into player positioning and decision-making dynamics during matches.
 
-- **Pitch Control Heatmaps**: Below is a heatmap example showing player control zones during a game:
-- 
-- - **Aggregated Pitch Control Heatmap **: The following image shows pitch control for each team aggregated over the entire game:
+- **Aggregated Pitch Control Heatmap**: The following image displays pitch control for a given timestamp during the game:
 
-  ![Pitch Control Heatmap]()
+  ![Pitch Control Heatmap](sample_pitch_control.png)
 
-- **Aggregated Pitch Control Heatmap **: The following image shows pitch control for each team aggregated over the entire game:
+- **Aggregated Pitch Control Heatmap**: The following image shows pitch control for each team aggregated over the entire game:
 
   ![Aggregated Pitch Control Heatmap](sample_aggregated_pitch_control.png)
   
@@ -22,8 +20,6 @@ This repository contains the implementation of a pitch control model designed fo
 
 ## Project Structure
 
-- **/data/**: Contains sample tracking data in CSV format.
-- **/src/**: Includes the Python scripts for data preprocessing, feature extraction, and the core pitch control model.
-  - `data_preprocessing.py`: Cleans and processes raw tracking data.
-  - `pitch_control_model.py`: The main script for training the model and calculating control probabilities.
-- **/notebooks/**: Jupyter notebooks that demonstrate model training, evaluation, and visualization.
+- **pitch_control_notebook-1.ipynb**: Contains the code to calculate and display pitch control.
+- **velocity_calculation.py**: Calculates the velocity of each player at every timestamp during the game using their x and y positions during each frame. 
+- **xml_to_csv_converter**: Processes the raw data file from each game and converts the data into a well-formatted csv file for analysis.
