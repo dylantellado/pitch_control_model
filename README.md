@@ -4,13 +4,15 @@
 
 This repository contains the implementation of a pitch control model designed for soccer analysis. The model uses tracking data to calculate player control over specific areas of the pitch at various timestamps, providing insights into player positioning and decision-making dynamics during matches.
 
-- **Pitch Control Heatmap**: Below is a heatmap example showing player control zones during a game:
+- **Pitch Control Heatmaps**: Below is a heatmap example showing player control zones during a game:
+- 
+- - **Aggregated Pitch Control Heatmap **: The following image shows pitch control for each team aggregated over the entire game:
 
-  ![Pitch Control Heatmap](./images/pitch_control_heatmap.png)
+  ![Pitch Control Heatmap]()
 
-- **Project Structure**: The following image shows the directory layout of the repository:
+- **Aggregated Pitch Control Heatmap **: The following image shows pitch control for each team aggregated over the entire game:
 
-  ![Project Directory](./images/project_directory.png)
+  ![Aggregated Pitch Control Heatmap](sample_aggregated_pitch_control.png)
   
 ## Key Features
 
